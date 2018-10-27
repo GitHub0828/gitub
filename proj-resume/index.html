@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+	<link rel="shortcut icon" href="static/image/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+				<!--
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+				-->
+                <h1 id="username" >name</h1>
+                <h4 id="persona-tag" >能力展示</h4>
+            </div>
+			<br></br>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">name</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">college</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">某大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">某年</span></li>
+                </ul>
+            </div>
+			<br></br>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">00000000000</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">0000@xxx.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/xxxx</span></li>
+                </ul>
+            </div>
+			<br></br>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">skill1</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">skill2</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">skill13</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">skill4</label>
+                        <progress value="30" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+			<br></br>
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+			<!--
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+			-->
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">求职意向</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <p>
+                            XXXX岗位
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <p>技能点</p>
+                    </li>
+                    <li>
+                        <p>技能点</p>
+                    </li>
+                    <li>
+                       <p>技能点</p>
+                    </li>
+                    <li>
+                       <p>技能点</p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>工作时间段</h3>
+						<h3>公司 | 部门 | 岗位</h3>
+                        <p>工作描述：
+                        </p>
+						<p>（1）描述1</p>
+						<p>（2）描述2</p>
+						<p>（3）描述3</p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经验</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>项目1</h3>
+                        <p>
+                           项目1描述
+                        </p>
+                    </li>
+                    <li>
+                        <h3>项目2</h3>
+                        <p>
+                           项目2描述
+                        </p>
+						  <p>
+                           （1）
+                        </p>
+						  <p>
+						   <b>（2）1.xxxxx
+						 2.xxxx
+						 3.xxxx
+						 4.xxxx
+						 </b>
+                        </p>
+						<p>
+						 （3）xxxx
+                        </p>
+					     <p>
+						 （4）xxxx
+                        </p>
+					     <p>
+						（5）xxxx
+                        </p>
+					     <p>
+						 （6）xxxx
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+				<ul class="experience-list">
+				<li>
+				
+<p>（1）xxxx</p>
+<p>（2）xxxx</p>
+<p>（3）xxxx</p>
+</li>
+			  </ul>
+                   
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
